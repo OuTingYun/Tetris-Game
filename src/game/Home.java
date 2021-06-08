@@ -28,11 +28,11 @@ import javax.swing.event.ChangeListener;
 
 import com.sun.tools.javac.Main;
 
-//銝��摰嗥����
+//��蕭嚙踝���嚙踝�蕭�嚙踝蕭
 
 public class Home extends game {
 
-	// 霈�����之撠�
+	// ��蕭嚙踝蕭謘選蕭謘橘蕭謅��蕭
 	Dimension screenSize = java.awt.Toolkit.getDefaultToolkit().getScreenSize();
 	
 	// Button
@@ -53,7 +53,7 @@ public class Home extends game {
 	All_Layer all_layer_start = new All_Layer();
 	All_Layer all_layer_warn = new All_Layer();
 
-	// �摰嗉���
+	// 嚙踐���蕭�嚙踝蕭
 
 	List<Record> id_record;
 	JLabel player_name;
@@ -62,12 +62,12 @@ public class Home extends game {
 	
 	Record player;
 
-	// 摰孵
+	// �摮蛔��
 	private JPanel contentPane = new JPanel();
 	private JPanel RatecontentPane = new JPanel();
 	private JScrollPane RatecontentPane_b = new JScrollPane(RatecontentPane);
 
-	// �隞�
+	// 嚙踝���蕭
 	String location=System.getProperty("user.dir")+"\\src\\game\\picture\\";
 	String lo_music=System.getProperty("user.dir")+"\\src\\game\\other\\";
 	Home_Player home_player;
@@ -135,15 +135,15 @@ public class Home extends game {
 		home_frame.setVisible(true);
 		// Listener
 
-		// 霈曉������
+		// ���蕭謍湛蕭�嚙踐�蕭��蕭嚙�
 		start.setOpaque(false);
-		// ����������
+		// 嚙踐嚙踝蕭�嚙踝謒蕭蹌穿蕭�嚙踝蕭��蕭嚙�
 		start.setContentAreaFilled(false);
-		// ����蝥�
+		// 嚙踐嚙踝蕭�嚙踐垓��嚙�
 		start.setFocusPainted(false);
-		// ���器獢�
+		// 嚙踐嚙踝蕭���嚙�
 		start.setBorder(null);
-		// 霈曄蔭�蝷箇����
+		// ���嚙踐�蝞蕭��郎嚙踝蕭嚙�
 		start.setIcon(single);
 		start.addActionListener(this);
 		start.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -247,7 +247,7 @@ public class Home extends game {
 
 		home_frame.addKeyListener(this);
 
-		// 摰孵撅祆��
+		// �摮蛔���蕭嚙�
 		contentPane.setLayout(null);
 		contentPane.setSize(screenSize);
 		contentPane.setLocation(0, 0);
@@ -266,7 +266,7 @@ public class Home extends game {
 		all_layer_warn.bg_img.setSize(650, 500);
 		teach = new Teach((int) ((screenSize.getWidth() / 2) - 325), 100);
 		Tetris.setBounds(320, 150, 700, 150);
-		// ��button
+		// 嚙踝蕭蹎button
 		contentPane.add(Two);
 		contentPane.add(select_player);
 		contentPane.add(player_score);
@@ -408,7 +408,7 @@ public class Home extends game {
 
 		Home_Color(int x, int y, int width, int height, String Name, int de,JPanel pp) {
 			super(x, y, width,  height, Name, de, pp);
-			//��捆���
+			//嚙踐嚙踐��蕭謒蕭嚙�
 			contentPane.setLayout(null);
 			contentPane.setLocation(0, 0);;
 			contentPane.setSize(width,height);
@@ -427,14 +427,14 @@ public class Home extends game {
 			try_demo_all.add(new S(288,240,player.id.get(6)));
 			try_demo_all.add(new JC(400,240,player.id.get(7)));
 			
-			//ARC�霈�
+			//ARC嚙踐���嚙�
 
 			ArcLabel.setBounds(410, 70, 150, 20);
 			ArcLabel.setFont(f);
 			ArcLabel.setForeground(Color.WHITE);
 
 			
-			//Slider��
+			//Slider嚙踝蕭
 			R_num = new JLabel("R:"+player.id.get(0).color.getRed());
 			G_num = new JLabel("G:"+player.id.get(0).color.getGreen());
 			B_num = new JLabel("B:"+player.id.get(0).color.getBlue());
@@ -452,7 +452,7 @@ public class Home extends game {
 			R_num.setBounds(350, 50, 70, 50);
 			R_num.setFont(f);
 			R_num.setForeground(Color.WHITE);
-			R.setSnapToTicks(true);// 憒�true嚗������銵函內���潘�圾���������蝵格����摨行����潦������false��
+			R.setSnapToTicks(true);// ���蕭謚秋冪true��嚙踐嚙踝�蕭��蕭����嚙踝蕭���嚙踝蕭��蕭瞏蕭��嚙踝蕭��冪嚙踝蕭嚙踝蕭蹎∴蕭���蕭��蕭���嚙踐嚙踝�蕭�嚙踝��銵蕭謕蕭謢賂蕭��蕭瞏佗蕭蹇蕭謢對蕭��蕭�嚙踐撩嚙踝�冪false嚙踝蕭
 			R.addChangeListener(new ChangeListener() {
 			      public void stateChanged(ChangeEvent event) {	
 			        R_value = R.getValue();
@@ -510,7 +510,7 @@ public class Home extends game {
 			 });
 			
 			
-			//demo ��tn
+			//demo 嚙踝蕭�tn
 			I.addActionListener(this);
 			demo_all_con.add(I);
 			T.addActionListener(this);
@@ -526,14 +526,14 @@ public class Home extends game {
 			S.addActionListener(this);
 			demo_all_con.add(S);
 			
-			//�隞tn
+			//嚙踝����n
 			contentPane.add(Arc);
 			Store.addActionListener(this);
 			contentPane.add(Store);
 			First.addActionListener(this);
 			contentPane.add(First);	
 
-			//��摰孵��
+			//嚙踐�蕭��摮蛔�蕭嚙�
 			this.add_jp(contentPane, JLayeredPane.MODAL_LAYER);
 			this.add_jp(demo_all_con, JLayeredPane.POPUP_LAYER);
 			contentPane.add(demo_all);
@@ -588,7 +588,7 @@ public class Home extends game {
 				try {			
 					player.id.stream().forEach(x->x.setarc(ArcInp.getValue()));
 					try_demo_all.stream().forEach(x->x.con_te.stream().forEach(y->y.arc=ArcInp.getValue()));
-					File writename = new File(System.getProperty("user.dir")+"\\src\\game\\ID.txt"); // �撠楝敺�������遣蝡����utput�xt瑼��
+					File writename = new File(System.getProperty("user.dir")+"\\src\\game\\ID.txt"); // 嚙踐�����嚙踝嚙踐�蕭謚恬蕭��蕭�嚙踝嚙踐撒����蕭嚙踝��蕭嚙踝utput嚙踐�t���蕭嚙�
 					BufferedWriter out = new BufferedWriter(new FileWriter(writename));
 					for(Record i:id_record) {
 						out.write(i.Name+" "+i.best_score+" "+i.pwd);
@@ -598,8 +598,8 @@ public class Home extends game {
 						out.write(" "+Integer.toString(i.id.get(0).arc)+" "+Integer.toString(i.grade));
 						out.write("\r\n");
 					} 
-					out.flush(); // ��翰����摰孵�瑼��
-					out.close(); // ��敺�������
+					out.flush(); // 嚙踝蕭��蝧堆蕭嚙踐□嚙踝蕭��摮蛛蕭�����蕭嚙�
+					out.close(); // 嚙踝蕭��嚙踐朱嚙踐�蕭謚殷蕭�嚙踐�蕭嚙�
 					} catch (Exception e1) {
 					e1.printStackTrace();
 					}
