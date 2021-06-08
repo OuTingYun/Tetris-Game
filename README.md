@@ -55,6 +55,9 @@ Playing the game with your friend and using same keyboard
 
 player1 (right screen)： `up` `down` `left` `right` `M` `space`
 player2 (left  screen)： `T` `G` `F` `H` `Z` `shift`
+<br/>
+
+![gifs]()
 
 ### battle mode - Computer
 Playing the game with computer(Record by yourself)
