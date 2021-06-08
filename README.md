@@ -50,3 +50,4 @@ Reserve your playing record in game.txt when playing single-mode and actually co
 
 ### Color Change
 Choose tetris's color, and the changing will store.
+![gifs](https://github.com/OuTingYun/Tetris-Game/blob/master/README/Color.gif)
