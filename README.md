@@ -57,7 +57,7 @@ player1 (right screen)： `up` `down` `left` `right` `M` `space`
 player2 (left  screen)： `T` `G` `F` `H` `Z` `shift`
 <br/>
 
-![gifs]()
+![gifs](https://github.com/OuTingYun/Tetris-Game/blob/master/README/Double.gif)
 
 ### battle mode - Computer
 Playing the game with computer(Record by yourself)
