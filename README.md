@@ -25,11 +25,9 @@ javax.sound
 - register
 - sign in
 <br/>
-<br/>
 
 ![gifs](https://github.com/OuTingYun/Tetris-Game/blob/master/README/Login.gif)
 
-<br/>
 <br/>
 
 ### Home
@@ -38,11 +36,9 @@ javax.sound
 One label shows the ranking another shows the player name and score.
 You can gain the score when playing single-mode and completing it
 <br/>
-<br/>
 
 ![gifs](https://github.com/OuTingYun/Tetris-Game/blob/master/README/Home.gif)
 
-<br/>
 <br/>
 
 ### battle mode - Single
@@ -52,11 +48,9 @@ You can see as practicing-mode
 
 player ： `up` `down` `left` `right` `shift` `space`
 <br/>
-<br/>
 
 ![gifs](https://github.com/OuTingYun/Tetris-Game/blob/master/README/Single.gif)
 
-<br/>
 <br/>
 
 ### battle mode - Double
@@ -71,7 +65,6 @@ player ： `up` `down` `left` `right` `shift` `space`
 
 #### computer player's method
 Reserve your playing record in game.txt when playing single-mode and actually completing the game.
-<br/>
 <br/>
 
 ![gifs](https://github.com/OuTingYun/Tetris-Game/blob/master/README/Computer.gif)
