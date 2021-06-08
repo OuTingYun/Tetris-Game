@@ -34,6 +34,7 @@ javax.sound
 
 ### Home
 5 buttoms and 2 Labels
+
 One label shows the ranking another shows the player name and score.
 You can gain the score when playing single-mode and completing it
 <br/>
@@ -43,6 +44,7 @@ You can gain the score when playing single-mode and completing it
 
 <br/>
 <br/>
+
 ### battle mode - Single
 Playing the game by yourself
 
