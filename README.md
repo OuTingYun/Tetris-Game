@@ -26,7 +26,7 @@ javax.sound
 - sign in
 <br/>
 
-![gifs](https://github.com/OuTingYun/Tetris-Game/blob/master/README/Login.gif)
+![gifs](https://github.com/OuTingYun/Images/blob/master/Tetris-Game/Login.gif)
 
 
 ### Home
@@ -36,7 +36,7 @@ One label shows the ranking another shows the player name and score.
 You can gain the score when playing single-mode and completing it
 <br/>
 
-![gifs](https://github.com/OuTingYun/Tetris-Game/blob/master/README/Home.gif)
+![gifs](https://github.com/OuTingYun/Images/blob/master/Tetris-Game/Home.gif)
 
 
 ### battle mode - Single
@@ -47,7 +47,7 @@ You can see as practicing-mode
 player ： `up` `down` `left` `right` `shift` `space`
 <br/>
 
-![gifs](https://github.com/OuTingYun/Tetris-Game/blob/master/README/Single.gif)
+![gifs](https://github.com/OuTingYun/Images/blob/master/Tetris-Game/Single.gif)
 
 
 ### battle mode - Double
@@ -57,7 +57,7 @@ player1 (right screen)： `up` `down` `left` `right` `M` `space`
 player2 (left  screen)： `T` `G` `F` `H` `Z` `shift`
 <br/>
 
-![gifs](https://github.com/OuTingYun/Tetris-Game/blob/master/README/Double.gif)
+![gifs](https://github.com/OuTingYun/Images/blob/master/Tetris-Game/Double.gif)
 
 ### battle mode - Computer
 Playing the game with computer(Record by yourself)
@@ -67,11 +67,11 @@ player ： `up` `down` `left` `right` `shift` `space`
 Reserve your playing record in game.txt when playing single-mode and actually completing the game.
 <br/>
 
-![gifs](https://github.com/OuTingYun/Tetris-Game/blob/master/README/Computer.gif)
+![gifs](https://github.com/OuTingYun/Images/blob/master/Tetris-Game/Computer.gif)
 
 ### Color Change
 Choose tetris's color, and the changing will store.
 <br/>
 
-![gifs](https://github.com/OuTingYun/Tetris-Game/blob/master/README/Color.gif)
+![gifs](https://github.com/OuTingYun/Images/blob/master/Tetris-Game/Color.gif)
 
